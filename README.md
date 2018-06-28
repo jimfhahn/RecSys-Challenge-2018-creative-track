@@ -7,14 +7,15 @@ Apache PredictionIO (http://predictionio.apache.org/) 'similar product template'
 
 # Software:
 
-- Python, data load (import-users.py, import-items.py, import-views.py)
+## Python, data load (import-users.py, import-items.py, import-views.py)
 
-- OpenRefine (http://openrefine.org/) with 'conciliator' (https://github.com/codeforkjeff/conciliator) for enrichment of known artist names with VIAF (Virtual International Authority File) to create an association for related artists. 
+## OpenRefine (http://openrefine.org/) with 'conciliator' (https://github.com/codeforkjeff/conciliator) for enrichment of known artist names with VIAF (Virtual International Authority File) to create an association for related artists. 
 
 
 # Data Set:
 
-VIAF: http://viaf.org/viaf/data/
+## VIAF: http://viaf.org/viaf/data/
+
 The Virtual International Authority File (VIAF) is an OCLC service -- built in cooperation with national libraries and other partners -- that virtually combines multiple LAM (Library Archives Museum) name authority files into a single name authority service.
 
 
@@ -22,5 +23,5 @@ The Virtual International Authority File (VIAF) is an OCLC service -- built in c
 
 -  Ubuntu 18.04 LTS (GNU/Linux 4.15.0-20-generic x86_64)
 -  java-8-openjdk-amd64
--  128GB RAM, 24 CPU Cores, 2.5 TB SSD
+-  300GB RAM, 16 CPU Cores, 340GB SSD
 -  psql (10.4 (Ubuntu 10.4-0ubuntu0.18.04))
