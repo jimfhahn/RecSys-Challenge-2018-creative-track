@@ -7,7 +7,7 @@ Apache PredictionIO (http://predictionio.apache.org/) 'similar product template'
 
 # Software:
 
-- Python data load (import-users.py, import-items.py, import-views.py)
+- Python data load (https://github.com/jimfhahn/RecSys-Challenge-2018-creative-track/tree/master/load-data)
 
 - OpenRefine (http://openrefine.org/) with 'conciliator' (https://github.com/codeforkjeff/conciliator) for enrichment of known artist names with VIAF (Virtual International Authority File) to create an association for related artists. 
 
