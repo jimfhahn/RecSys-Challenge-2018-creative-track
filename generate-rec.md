@@ -12,7 +12,7 @@ pio deploy
 
 To generate recommendations for completing a user's playlist, the system uses the pattern below. 
 
-### query for creative track spotify playlist completion:
+### query for completing the playlist:
 
 ```
 curl -H "Content-Type: application/json" \
@@ -24,7 +24,7 @@ http://localhost:8000/queries.json \
 
 ```
 
-### Defining elements in the template for applicability to the Spotify Million Playlist challenge 
+### Elements defined
 
 items = spotify track uris that are already in the playlist
 
