@@ -30,7 +30,7 @@ ORDER BY
 ### De-Duplicate views
 
 ```
-DELETE FROM pio_event_1 
+DELETE FROM pio_event_2 
 WHERE id IN
     (SELECT id
     FROM 
