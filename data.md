@@ -38,7 +38,7 @@ WHERE id IN
          ROW_NUMBER() OVER( PARTITION BY targetentityid, entityid,
          event
         ORDER BY  id ) AS row_num
-        FROM pio_event_1 WHERE event='view') t
+        FROM pio_event_2 WHERE event='view') t
         WHERE t.row_num > 1 );
 ```
 
